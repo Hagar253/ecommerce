@@ -167,7 +167,7 @@ const ProductSinglePage = () => {
                                 <div className='btns'>
                                     <button type="button" className='add-to-cart-btn btn'>
                                         <i className='fas fa-shopping-cart'></i>
-                                        <span className='btn-text mx-2'>add to cart</span>
+                                        <span className='btn-text mx-2' onClick={() => { addToCartHandler(product) }}>add to cart</span>
                                     </button>
                                     <button type="button" className='buy-now btn mx-3'>
                                         <span className='btn-text'>buy now</span>
